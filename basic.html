@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>BasicPage</title>
+</head>
+
+<body>
+    <main class="main ">
+        <div class="container">
+            <div class="main__nav">
+                <div class="main__logo">
+                    <a href="./basic.html" class="main__link"><img src="./img/basic_bg.svg" alt="basic"
+                            class="main__img"></a>
+                </div>
+                <div class="main__input">
+                    <img src="./img/Search.svg" alt="" class="img__search">
+                    <input type="text" placeholder="Search books" class="input">
+                </div>
+                <div class="main__btn">
+                    <button id="btn">Logout</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section class="middle ">
+        <div class="container">
+            <div class="middle__hero">
+                <div class="main__middle">
+                    <p class="main__paragraph">Showing <span class="span">18</span> Result <span class="all">155</span></p>
+                </div>
+                <div class="button_mid">
+                    <img src="./img/calendar.png" alt="" class="mid_img">
+                    <button class="mid__btn" id="mid__btn">
+                        Order by newest
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="basic ">
+        <div class="container">
+            <div class="basic__hero">
+                <div class="basic__first">
+                    <h3 class="basic__heading">Bookmarks</h3>
+                    <p class="basic__text">If you don’t like to read, you haven’t found the right book</p>
+                    <ul class="first__list">
+                        <!-- <li class="first__item">
+                            <div class="text">
+                                <h4 class="first__tite">Phyton</h4>
+                                <p class="author">Jone Doe</p>
+                            </div>
+                            <div class="icons">
+                               <a href="${}" class="links"> <img src="./img/read.png" alt=""></a>
+                                <img src="./img/delete.png" alt="">
+                            </div>
+                        </li> -->
+                    </ul>
+                </div>
+                <div class="basic__second">
+                    <ul class="second__list">
+                        <!-- <li class="second__item">
+                            <div class="second__image">
+                                <img src="https://picsum.photos/200/200" alt="" class="second__img">
+                            </div>
+                            <h4 class="title">Phyton</h4>
+                            <p class="writer">Jone Doe</p>
+                            <span class="year">2002</span>
+                            <div class="second__btns">
+                                <button class="bookmark">Bookmark</button>
+                                <button class="MoreInfo"><a href="">More Info</a></button>
+                                <a href="${book.volumeInfo.previewLink}><button class="Read">Read</button></a>
+                            </div>
+                        </li> -->
+                    </ul>
+                </div>
+               
+            </div> 
+            <div class="butns">
+                    <button id="prev"> < </button>
+                    <button id="next"> > </button>
+                </div>
+        </div>
+    </section>
+
+    
+    <div class="modal__modal"></div>
+    <div class="modal__overlay">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="./js/basic.js"></script>
+</body>
+
+</html>
